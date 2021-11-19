@@ -1,0 +1,116 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: #737373;
+	padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+	width: 1170px;
+}
+
+nav {
+	position: absolute;
+	top: 240px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+.livro{
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.principal {
+	padding: 3em 0;
+	background: linear-gradient(#FF33FF, #FF33CC, #FF3399);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 20px;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+
+
+/* CSS DA PÁGINA INICIANDO*/
+
+.indicações {
+	margin: 0 auto;
+	background: linear-gradient(#66cc99, #66cccc);
+	padding: 3em 0;
+}
+
+h2{
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;
+	clear: left;
+	color: black;
+	font-style: bold;
+
+}
+
+li {
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.paragrafo {
+	font-size: 2em;
+	text-align: center;
+}
+
+.Fim {
+	text-align: center;
+	font-size: 2.5em;
+	font-style: bold;
+	color: purple;
+}
+
+footer {
+	text-align: center;
+	background: black;
+}
+.Copyright {
+	color: white;
+}
+
